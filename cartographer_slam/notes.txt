@@ -1,0 +1,16 @@
+-----------------------------------------
+Section 2
+-----------------------------------------
+
+exercise 2.1 demo: cartographer_ros
+-----------------------------------
+1. build & launch
+    a.) cd ~/ros2_ws
+    b.) colcon build --packages-select cartographer_slam
+    c.) source ~/ros2_ws/install/setup.bash
+    d.) ros2 launch cartographer_slam cartographer.launch.py
+2. launch rviz
+    a.) rviz2
+    b.) open mapper_rviz_config.rviz
+3. control to see updates
+    a.) ros2 run teleop_twist_keyboard teleop_twist_keyboard
